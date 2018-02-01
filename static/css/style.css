@@ -1,0 +1,64 @@
+.index-nav{
+    width: 1200px;
+    overflow: hidden;
+    margin: 100px auto;
+}
+.index-nav ul{
+    width: 1200px;
+    height: 260px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.index-nav ul li{
+    float: left;
+    /*width: 130px;*/
+    height: 260px;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .5s linear;
+    -webkit-transition: all .5s linear;
+}
+.index-nav ul li .mask_b{
+    position: absolute;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,.3);
+}
+.index-nav ul li .mask_b h4{
+    color: #fff;
+    width: 30px;
+    margin: 0 auto;
+    display: block;
+    font: 30px/30px Microsoft Yahei;
+    position: relative;
+    padding: 30px 0 0 0;
+}
+.pic-auto{
+    width: 100%;
+    height: 100%;
+}
+.pic-auto1{
+    background: url('../images/pic-img1.jpg') no-repeat center 0;
+}
+.pic-auto2{
+    background: url('../images/pic-img2.jpg') no-repeat center 0;
+}
+.pic-auto3{
+    background: url('../images/pic-img3.jpg') no-repeat center 0;
+}
+.pic-auto4{
+    background: url('../images/pic-img4.jpg') no-repeat center 0;
+}
+.pic-auto5{
+    background: url('../images/pic-img5.jpg') no-repeat center 0;
+}
+.pic-auto6{
+    background: url('../images/pic-img6.jpg') no-repeat center 0;
+}
+.pic-auto7{
+    background: url('../images/pic-img7.jpg') no-repeat center 0;
+}
